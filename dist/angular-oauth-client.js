@@ -232,7 +232,7 @@ angular.module('aomitayo.angular-oauth-client')
 			if(client){
 				client.authz = undefined;
 				var sessions = self.provide(self.sessions || client.sessions);
-				var ignoreSessions = true && (self.provider.sessions || client.sessions || {remove:function(){}}).remove(self.sessionKey(client));
+				var ignoreSessions = true && (self.sessions || client.sessions || {remove:function(){}}).remove(self.sessionKey(client));
 				self.$rootScope.$broadcast('Oauth:clientStopped', client);
 			}
 		},
