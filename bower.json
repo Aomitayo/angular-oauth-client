@@ -1,0 +1,28 @@
+{
+  "name": "angular-oauth-client",
+  "version": "0.0.1",
+  "main": "./dist/angular-oauth-client.js",
+  "authors": [
+    "Adedayo Omitayo<adedayo.omitayo@flowswift.com>"
+  ],
+  "description": "Provides an OAuth2 client",
+  "keywords": [
+    "oauth",
+    "oauth2"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.12",
+    "angular-ui-router": "~0.2.8"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.12"
+  }
+}
