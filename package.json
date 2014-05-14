@@ -1,7 +1,7 @@
 {
   "author": "",
   "name": "angular-oauth-client",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "description": "Provides an oauth2 client",
   "homepage": "",
   "dependencies": {
