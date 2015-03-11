@@ -1,6 +1,6 @@
 {
   "name": "angular-oauth-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./dist/angular-oauth-client.js",
   "authors": [
     "Adedayo Omitayo<adedayo.omitayo@flowswift.com>"
